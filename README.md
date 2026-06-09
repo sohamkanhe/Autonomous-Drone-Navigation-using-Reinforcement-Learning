@@ -4,7 +4,7 @@
 This project uses Proximal Policy Optimization (PPO) reinforcement learning to train a drone to navigate through obstacles and reach a target location.
 
 ## Demo
-<video src="drone_rl.mp4" width="100%" controls></video>
+<video src="https://github.com/sohamkanhe/Autonomous-Drone-Navigation-using-Reinforcement-Learning/blob/main/drone_rl.mp4" width="100%" controls></video>
 
 ## What is PPO?
 PPO is a reinforcement learning algorithm that teaches the drone by trial and error. The drone tries actions, gets rewards or penalties, and gradually learns what works best.
