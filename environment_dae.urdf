@@ -1,0 +1,27 @@
+<robot name="city_dae_environment">
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 -0.1" rpy="0 0 1.5708"/>
+      <geometry>
+        <mesh filename="uploads-files-4359726-city+2.dae" scale="1 1 1"/>
+      </geometry>
+      <material name="city_texture_material">
+        <texture filename="Untitled.png"/>
+      </material>
+    </visual>
+
+    <!-- Static collision for ground -->
+    <collision>
+      <origin xyz="0 0 -0.1" rpy="0 0 0"/>
+      <geometry>
+        <box size="20 20 0.2"/>
+      </geometry>
+    </collision>
+
+    <!-- Stationary environment properties -->
+    <inertial>
+      <mass value="0"/>  <!-- Zero mass = static object -->
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+</robot>
